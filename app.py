@@ -120,8 +120,8 @@ def answer_question(question: str, history: list[dict] = []):
 
   return response.content, relevant_docs
 
-# =========================
-# GRADIO UI (Gradio 6.1.0)
+
+# GRADIO UI
 # =========================
 with gr.Blocks(title="LLerem Knowledge Assistant") as demo:
     # Title / Header
@@ -192,6 +192,7 @@ demo.launch()
         
             
             
+
 
 
 
